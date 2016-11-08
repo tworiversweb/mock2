@@ -126,10 +126,14 @@ h6 {
     letter-spacing: 2px;
 }
 
-.content-section-a {
+.content-section-a, .content-section-a2 {
     padding: 50px 0;
     background-color: #f8f8f8;
     margin: 20px;
+}
+
+.content-section-a a:visited, .content-section-a2 a:visited {
+  color: currentColor;
 }
 
 .content-section-b {
