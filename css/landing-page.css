@@ -126,14 +126,18 @@ h6 {
     letter-spacing: 2px;
 }
 
-.content-section-a, .content-section-a2 {
+.content-section-a {
     padding: 50px 0;
     background-color: #f8f8f8;
     margin: 20px;
 }
 
-.content-section-a a:visited, .content-section-a2 a:visited {
+.content-section-a a:visited {
   color: currentColor;
+}
+
+.left-col {
+  text-align: center;
 }
 
 .content-section-b {
@@ -154,10 +158,18 @@ h5,
 h6 {
     font-family: arial;
     /*font-weight: 500;*/
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
+.sub-heading {
+  font-family: arial;
+  font-size: 20px;
+  color: black;
+}
 
+.social {
+  max-height: 30px;
+}
 .section-heading-spacer {
     float: left;
     width: 200px;
